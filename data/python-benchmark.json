@@ -1,0 +1,2109 @@
+{
+  "pairs": [
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 9,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": 2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": -2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 1
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 0,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 1
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 13,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 1
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 16,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": -5,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 5,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 1
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 18,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": -7,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 7,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 1
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 20,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -9,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 9,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 1
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 9,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": 2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": -2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 2
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 0,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 2
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 13,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 2
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 16,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": -5,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 5,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 2
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 18,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": -7,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 7,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 2
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 20,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -9,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 9,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 2
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 9,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": 2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": -2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 3
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 0,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 3
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 13,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 3
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 16,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": -5,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 5,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 3
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 18,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": -7,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 7,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 3
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 20,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -9,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 9,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 3
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 9,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": 2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": -2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 4
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 0,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 4
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 13,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 4
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 16,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": -5,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 5,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 4
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 18,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": -7,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 7,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 4
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 20,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -9,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 9,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 4
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 9,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": 2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": -2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 5
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 0,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 5
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 13,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 5
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 16,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": -5,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 5,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 5
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 18,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": -7,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 7,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 5
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 20,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -9,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 9,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 5
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 9,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": 2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": -2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 6
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 0,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 6
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 13,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 6
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 16,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": -5,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 5,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 6
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 18,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": -7,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 7,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 6
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 20,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -9,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 9,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 6
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 9,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": 2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": -2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 7
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 0,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 7
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 13,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 7
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 16,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": -5,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 5,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 7
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 18,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": -7,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 7,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 7
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 20,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -9,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 9,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 7
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 9,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": 2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": -2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 8
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 0,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 8
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 13,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 8
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 16,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": -5,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 5,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 8
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 18,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": -7,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 7,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 8
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 20,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -9,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 9,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 8
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 9,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": 2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": -2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 9
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 0,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 9
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 13,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 9
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 16,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": -5,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 5,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 9
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 18,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": -7,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 7,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 9
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 20,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -9,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 9,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 9
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 9,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": 2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": -2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 10
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 0,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 10
+    },
+    {
+      "condition": {
+        "network_delay": 2,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 13,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -2,
+        "message_delay_steps": 2,
+        "messages_sent": 1,
+        "recovery_steps": 1,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 2,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 10
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 16,
+        "human_decisions": 4,
+        "knowledge_benefit_steps": -5,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 2,
+        "unnecessary_inspections": 0,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 5,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "transferable",
+      "seed": 10
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 18,
+        "human_decisions": 6,
+        "knowledge_benefit_steps": -7,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 7,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "unrelated",
+      "seed": 10
+    },
+    {
+      "condition": {
+        "network_delay": 15,
+        "outage_steps": 6
+      },
+      "cooperative": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 20,
+        "human_decisions": 7,
+        "knowledge_benefit_steps": -9,
+        "message_delay_steps": 15,
+        "messages_sent": 1,
+        "recovery_steps": 9,
+        "resource_loss_L": 8,
+        "unnecessary_inspections": 3,
+        "unsafe_attempts": 0
+      },
+      "fault_step_delta": 9,
+      "isolated": {
+        "conflicts_detected": 1,
+        "correctly_rejected_messages": 0,
+        "fault_step": 11,
+        "human_decisions": 5,
+        "knowledge_benefit_steps": 0,
+        "message_delay_steps": 0,
+        "messages_sent": 0,
+        "recovery_steps": 0,
+        "resource_loss_L": 6,
+        "unnecessary_inspections": 2,
+        "unsafe_attempts": 0
+      },
+      "scenario": "poisoned",
+      "seed": 10
+    }
+  ],
+  "source": {
+    "commit": "Phase 4 local source; public commit pending",
+    "method": "mars.experiment.benchmark(range(1,11), conditions=[delay 2/outage 6, delay 15/outage 6])"
+  },
+  "unit": "simulation steps; simulated resource units"
+}
