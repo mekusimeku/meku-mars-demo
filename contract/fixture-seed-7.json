@@ -1,0 +1,101 @@
+{
+  "schema": "meku.mars.sim-summary.v0",
+  "simulated": true,
+  "dataClass": "public-synthetic",
+  "sourceRepo": "mekusimeku/meku-mars-demo",
+  "sourceCommit": "62abcca764e8636c2a59f29c34d86ff582b85b4e",
+  "simulationId": "storm-share-water-seed-7",
+  "modelVersion": "mars-genesis-browser-v1",
+  "seed": 7,
+  "step": 3,
+  "generatedAt": "2026-11-16T00:00:00.000Z",
+  "settlements": [
+    {
+      "name": "ARES",
+      "online": true,
+      "alerts": 1,
+      "pendingTasks": 1,
+      "quarantinedPackages": 1,
+      "atOrBelowReserve": [
+        "water"
+      ]
+    },
+    {
+      "name": "HESTIA",
+      "online": true,
+      "alerts": 0,
+      "pendingTasks": 0,
+      "quarantinedPackages": 0,
+      "atOrBelowReserve": []
+    },
+    {
+      "name": "PROMETHEUS",
+      "online": true,
+      "alerts": 1,
+      "pendingTasks": 1,
+      "quarantinedPackages": 0,
+      "atOrBelowReserve": [
+        "energy"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-18",
+      "step": 3,
+      "settlement": "ARES",
+      "kind": "task proposed"
+    },
+    {
+      "id": "evt-16",
+      "step": 3,
+      "settlement": "ARES",
+      "kind": "evidence"
+    },
+    {
+      "id": "evt-13",
+      "step": 3,
+      "settlement": "ARES",
+      "kind": "external simulated loss"
+    },
+    {
+      "id": "evt-12",
+      "step": 3,
+      "settlement": "ARES",
+      "kind": "knowledge received"
+    },
+    {
+      "id": "evt-11",
+      "step": 0,
+      "settlement": "HESTIA",
+      "kind": "message queued"
+    },
+    {
+      "id": "evt-8",
+      "step": 0,
+      "settlement": "HESTIA",
+      "kind": "evidence"
+    },
+    {
+      "id": "evt-6",
+      "step": 0,
+      "settlement": "PROMETHEUS",
+      "kind": "task proposed"
+    },
+    {
+      "id": "evt-4",
+      "step": 0,
+      "settlement": "PROMETHEUS",
+      "kind": "evidence"
+    },
+    {
+      "id": "evt-1",
+      "step": 0,
+      "settlement": "PROMETHEUS",
+      "kind": "external simulated loss"
+    }
+  ],
+  "evidenceDigest": "daafdf6b5d343a96186c0579099d0a3f922bdc8ae781d127d4b12dcf51b4aa1c",
+  "liveTelemetry": false,
+  "controlsHabitat": false
+}

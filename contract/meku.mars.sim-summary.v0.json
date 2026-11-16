@@ -1,0 +1,32 @@
+{
+  "schema": "meku.mars.sim-summary.v0",
+  "status": "approved-for-local-read-only-synthetic-integration",
+  "approvedBy": "MEKU SI founder, 2026-11-16",
+  "notApprovedFor": ["live telemetry", "hardware control", "real-world actions", "production deployment"],
+  "topLevelKeys": ["controlsHabitat", "dataClass", "evidenceDigest", "events", "generatedAt", "liveTelemetry", "modelVersion", "schema", "seed", "settlements", "simulated", "simulationId", "sourceCommit", "sourceRepo", "step"],
+  "settlementKeys": ["alerts", "atOrBelowReserve", "name", "online", "pendingTasks", "quarantinedPackages"],
+  "eventKeys": ["id", "kind", "settlement", "step"],
+  "constants": {
+    "simulated": true,
+    "dataClass": "public-synthetic",
+    "sourceRepo": "mekusimeku/meku-mars-demo",
+    "modelVersion": "mars-genesis-browser-v1",
+    "liveTelemetry": false,
+    "controlsHabitat": false
+  },
+  "settlements": ["ARES", "HESTIA", "PROMETHEUS"],
+  "eventSettlements": ["ARES", "HESTIA", "PROMETHEUS", "NETWORK"],
+  "patterns": {
+    "sourceCommit": "^[0-9a-f]{40}$",
+    "simulationId": "^[a-z0-9][a-z0-9-]{0,63}$",
+    "generatedAt": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$",
+    "eventId": "^evt-\\d{1,6}$",
+    "reserveKey": "^[a-z_]{1,20}$"
+  },
+  "limits": { "seedMin": 1, "seedMax": 1000000, "maxEvents": 32, "maxEventKindLength": 40 },
+  "evidenceDigest": {
+    "algorithm": "SHA-256 hex over sorted-key JSON of the events array",
+    "proves": "consistency of the events list with the digest only",
+    "doesNotProve": "who produced the summary, when, or that the simulation ran; there is no signature"
+  }
+}
